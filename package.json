@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "monarch-api": "git://github.com/soixantecircuits/node-monarch.git",
-    "spacebro-client": "0.0.1"
+    "spacebro-client": "0.0.7"
   }
 }
