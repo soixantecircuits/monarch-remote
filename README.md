@@ -14,6 +14,11 @@ Matrox remote allows you to record using the Monarch HDX from Matrox.
 
 Do not forget to make a Spacebro server run somewhere : https://github.com/soixantecircuits/spacebro
 
+## Test
+
+We made a script to send a `shoot` every 30s
+`node scripts/trigger.js`
+
 ## What we use 
 
 Matrox Monarch use:
