@@ -1,6 +1,6 @@
-# Matrox remote
+# Monarch remote
 
-Matrox remote allows you to record using the Monarch HDX from Matrox.
+Monarch remote allows you to record using the Monarch HDX from Matrox.
 
 ## Install
 
@@ -21,7 +21,7 @@ We made a script to send a `shoot` every 30s
 
 ## What we use 
 
-Matrox Monarch use:
+Monarch Monarch use:
 
 - monarch-api: which communicate over HTTP with a MONARCH HDX / HD
 - spacebro-client: which communicate with a Spacebro server

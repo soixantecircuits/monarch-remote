@@ -26,4 +26,4 @@ var actionList = [
   }
 ]
 
-spacebroClient.registerToMaster(actionList, 'matrox-remote')
+spacebroClient.registerToMaster(actionList, 'monarch-remote')
