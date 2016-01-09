@@ -22,4 +22,4 @@ spacebroClient.registerToMaster(actionList, 'trigger-bro')
 
 setInterval(function () {
   spacebroClient.emit('shoot', {data: 'foo'})
-}, 30000)
+}, 90000)
