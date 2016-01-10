@@ -4,7 +4,7 @@ const Monarch = require('monarch-api')
 const spacebroClient = require('spacebro-client')
 let options = {
   timeout: 3000,
-  recordDuration: 15000,
+  recordDuration: 3000,
   hdx: true
 }
 let monachConf = require('./config/config-monarch.json')
