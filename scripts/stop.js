@@ -20,16 +20,6 @@ var actionList = [
 actionList.push({name: 'new-media'})
 spacebroClient.registerToMaster(actionList, 'trigger-bro')
 
-var duration = 5000
-var sequence = function(){
-  setTimeout(function () {
-    spacebroClient.emit('shoot', {data: 'foo'})
-  }, 1000)
-  setTimeout(function () {
-    spacebroClient.emit('stop', {data: 'foo'})
-  }, duration + 1000)
-}
-sequence()
-setInterval(function () {
-  sequence()
- }, duration + 5000)
+setTimeout(function () {
+  spacebroClient.emit('stop', {data: 'foo'})
+}, 1000)
